@@ -1,0 +1,78 @@
+.bg-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.withdrawal-card {
+  width: 500px;
+  max-width: 900px;
+  border-radius: 10px;
+  border: none;
+  background-color: #150b3e;
+  padding: 32px;
+  margin-top: 60px;
+}
+.nameCard {
+  display: flex;
+  flex-direction: row;
+}
+
+.profile-pic {
+  width: 80px;
+  height: 80px;
+  border-radius: 50px;
+  background-color: #c7d2fe;
+  border: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.profile-name {
+  font-family: 'Roboto';
+  font-size: 36px;
+  font-weight: 600;
+  color: #d4d2db;
+  margin-top: 32px;
+  margin-bottom: 32px;
+  margin-left: 12px;
+  margin-right: 12px;
+}
+.balance-card {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.balance {
+  font-family: 'Roboto';
+  font-size: 28px;
+  font-weight: 600;
+  color: #585076;
+}
+.amount {
+  font-family: 'Roboto';
+  font-size: 44px;
+  font-weight: 800;
+  color: #d4d2db;
+}
+.rupee-text {
+  font-family: 'Roboto';
+  font-size: 14px;
+  font-weight: 300;
+  color: #585076;
+  text-align: end;
+}
+.withdraw {
+  font-family: 'Roboto';
+  font-size: 42px;
+  font-weight: 800;
+  color: #d4d2db;
+}
+.deno-cards {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  list-style-type: none;
+  flex-wrap: wrap;
+  margin-top: -5px;
+  margin-left: -40px;
+}

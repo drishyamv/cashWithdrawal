@@ -1,0 +1,20 @@
+.denomination-value {
+  display: flex;
+  justify-content: center;
+}
+.withdrawBtn {
+  height: 45px;
+  width: 125px;
+  border: 1px solid #d4d2db;
+  background-color: #585076;
+  border-radius: 3px;
+  color: #d4d2db;
+  padding: 5px;
+  font-family: 'Roboto';
+  font-size: 16px;
+  font-weight: 500;
+  margin-left: 12px;
+  margin-right: 12px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
